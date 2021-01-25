@@ -1,17 +1,18 @@
 h1 {
     color: rgb(74,94,128);
-    font-size: 3em;
+    font-size: 3.25em;
+    text-align: center;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     background-color: rgb(120,138,171);
     color: rgb(255,255,255);
     padding: 1em 1em 1em 1em;
-    text-aligned: center;
+    text-align: center;
 }
 h3 {
     color: rgb(166,192,237);
-    font-size: 1em;
+    font-size: 1.25em;
     margin: 1em 2em 1.5em 0.5em;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -19,6 +20,9 @@ h3 {
 h4 {
     font-family: sans-serif;
     text-transform: uppercase;
+}
+li{
+    list-style: none
 }
 p {
     font-family: sans-serif;
