@@ -7,8 +7,9 @@ h2 {
     font-size: 2em;
     background-color: rgb(120,138,171);
     color: rgb(255,255,255);
-    padding: 0.75em 0.75em 0.75em 0.75em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     text-align: center;
+    text-transform: uppercase;
 }
 h3 {
     color: rgb(74,94,128);
