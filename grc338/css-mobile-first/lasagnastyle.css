@@ -1,3 +1,5 @@
+/*CSS DOCUMENT*/
+
 @font-face{
     Font-family:Calligraphy;
     src: url(Staples_Calligraphy.ttf);
@@ -41,6 +43,7 @@ h6{
 figcaption{
     font-family: sans-serif;
     font-size: .75em;
+    font-style: italic;
     text-align: center;
 }
 
