@@ -29,9 +29,14 @@ h3{
     color: #e83d1f;
 }
 
+figcaption{
+    font-family: sans-serif;
+    font-size: .5em;
+}
+
 .ingredients li{
     font-family: sans-serif;
-    list-style: none
+    list-style: none;
 }
 
 .directions li{
