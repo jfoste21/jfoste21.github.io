@@ -32,6 +32,7 @@ h3{
 figcaption{
     font-family: sans-serif;
     font-size: .5em;
+    text-align: center;
 }
 
 .ingredients li{
@@ -41,4 +42,8 @@ figcaption{
 
 .directions li{
     font-family: sans-serif;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
 }
