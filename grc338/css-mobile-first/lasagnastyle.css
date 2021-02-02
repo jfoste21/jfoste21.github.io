@@ -31,7 +31,7 @@ h3{
 
 figcaption{
     font-family: sans-serif;
-    font-size: .5em;
+    font-size: .75em;
     text-align: center;
 }
 
@@ -42,6 +42,13 @@ figcaption{
 
 .directions li{
     font-family: sans-serif;
+}
+
+footer{
+    background-color: #e83d1f;
+    font-family: sans-serif;
+    font-size: .75em;
+    text-align: center;
 }
 
 img {
