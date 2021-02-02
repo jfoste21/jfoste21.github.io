@@ -32,7 +32,9 @@ h3{
 h6{
     font-family: sans-serif;
     font-size: .75em;
+    color: #ffffff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 figcaption{
