@@ -29,14 +29,11 @@ h3{
     color: #e83d1f;
 }
 
-li{
+.ingredients li{
+    font-family: sans-serif;
     list-style: none
 }
 
-.ingredients {
-    font-family: sans-serif;
-}
-
-.directions {
+.directions li{
     font-family: sans-serif;
 }
