@@ -1,0 +1,41 @@
+@font-face{
+    Font-family:romanticstories;
+    src: url (romantic stories demo.otf);
+}
+
+header{
+    background-color: #e83d1f;
+    padding: 1em
+}
+
+h1{
+    font-family: romanticstories;
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: romanticstories;
+    font-size: 1.5em;
+    color: #e83d1f;
+}
+
+li{
+    list-style: none
+}
+
+.ingredients {
+    font-family: sans-serif;
+}
+
+.directions {
+    font-family: sans-serif;
+}
