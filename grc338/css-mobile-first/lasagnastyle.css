@@ -1,6 +1,6 @@
 @font-face{
-    Font-family:romanticstories;
-    src: url (romantic stories demo.otf);
+    Font-family:romantic-stories;
+    src: url(romantic_stories_demo.otf);
 }
 
 header{
@@ -9,7 +9,7 @@ header{
 }
 
 h1{
-    font-family: romanticstories;
+    font-family: romantic-stories;
     font-size: 3em;
     color: #ffffff;
     text-align: center;
@@ -24,7 +24,7 @@ h2{
 }
 
 h3{
-    font-family: romanticstories;
+    font-family: romantic-stories;
     font-size: 1.5em;
     color: #e83d1f;
 }
