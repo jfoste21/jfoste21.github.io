@@ -29,6 +29,7 @@ h3{
     font-family: Calligraphy;
     font-size: 2.5em;
     color: #e83d1f;
+    margin-bottom: .25em;
 }
 
 h6{
@@ -57,6 +58,7 @@ figcaption{
 
 footer{
     background-color: #e83d1f;
+    padding: .15em;
 }
 
 img {
