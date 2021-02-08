@@ -62,6 +62,7 @@ figcaption{
     font-family: sans-serif;
     font-size: .75em;
     font-style: italic;
+    padding: 1em;
 }
 
 .ingredients li{
