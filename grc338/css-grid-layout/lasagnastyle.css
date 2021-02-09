@@ -17,10 +17,8 @@ header{
 }
 
 main {
-    grid-area: main;
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: auto;
 }
 
 h1{
@@ -55,7 +53,7 @@ h6{
 
 figure{
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 70% 30%;
 }
 
 figcaption{
