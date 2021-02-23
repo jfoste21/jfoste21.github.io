@@ -3,8 +3,27 @@
     src: url(Bubblegum.ttf);
 }
 
-header{
+nav ul{
     background-color: #ef632f;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 4em;
+    margin-left: 4em;
+    font-family: Bubblegum;
+
+}
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header{
     padding: 1em;
 }
 
