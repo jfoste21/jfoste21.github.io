@@ -54,7 +54,9 @@ h4{
 ul li h4 a{
     font-family: Youtube;
     color: #ef632f;
+    font-size: 1em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 figcaption{
