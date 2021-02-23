@@ -3,9 +3,15 @@
     src: url(Youtube-Star.ttf);
 }
 
+header{
+    background-color: #000000;
+}
+
 nav ul{
     background-color: #ef632f;
-    padding: 1em;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     text-align: center;
 }
 
