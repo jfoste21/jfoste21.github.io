@@ -41,6 +41,8 @@ h3{
 h4{
     font-family: Youtube;
     color: #ef632f;
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 ul li h4 a{
