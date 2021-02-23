@@ -12,13 +12,11 @@ nav ul{
 nav ul li{
     display: inline;
     list-style-type: none;
-    margin-right: 4em;
-    margin-left: 4em;
     font-family: Bubblegum;
 
 }
 nav ul li a{
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
