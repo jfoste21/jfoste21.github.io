@@ -41,7 +41,6 @@ h2{
 h3{
     font-family: sans-serif;
     color: #ef632f;
-    font-size: 1.5
     margin-bottom: .25em;
 }
 
@@ -64,10 +63,6 @@ figcaption{
     font-size: 1em;
     font-style: italic;
     text-align: center;
-}
-
-p{
-    font-size: 1.25em;
 }
 
 img {
