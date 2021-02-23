@@ -13,6 +13,7 @@ nav ul li{
     display: inline;
     list-style-type: none;
     font-family: Youtube;
+    text-transform: uppercase;
 
 }
 nav ul li a{
