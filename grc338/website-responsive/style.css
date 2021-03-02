@@ -73,3 +73,25 @@ figcaption{
 img {
     width: 100%;
 }
+
+@media screen and (min-width: 40em){
+    div.menu{
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        grid-template-rows: 1fr 2fr;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    div.fastfood{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    div.diningfood{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    div.others{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+}
