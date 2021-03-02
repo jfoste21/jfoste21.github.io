@@ -107,11 +107,11 @@ img {
     
     div.about{
         display: grid;
-        grid-template-columns: repeat (2, 1fr);
+        grid-template-columns: 40% 60%;
         grid-template-rows: 30% 70%;    
     }
     
-    div.founder{
+    .founder{
         grid-column: 1/2;
         grid-row: 1/2;
     }
