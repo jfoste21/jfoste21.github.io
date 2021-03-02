@@ -74,6 +74,10 @@ img {
     width: 100%;
 }
 
+.founder {
+    max-height: 10em;
+}
+
 @media screen and (min-width: 45em){
     div.menu{
         display: grid;
