@@ -1,0 +1,70 @@
+@font-face{
+    Font-family:Youtube;
+    src: url(Youtube-Star.ttf);
+}
+
+header{
+    background-color: #000000;
+}
+
+nav ul{
+    background-color: #ef632f;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    font-family: Youtube;
+    text-transform: uppercase;
+    padding: 2em;
+
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+
+h2{
+    font-family: Youtube;
+    color: #ef632f;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: sans-serif;
+    color: #ef632f;
+    margin-bottom: .25em;
+}
+
+h4{
+    font-family: Youtube;
+    color: #ef632f;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+ul li h4 a{
+    font-family: Youtube;
+    color: #ef632f;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+figcaption{
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
