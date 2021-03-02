@@ -78,7 +78,7 @@ img {
     div.menu{
         display: grid;
         grid-template-columns: repeat (3, 1fr);
-        grid-template-rows: 15% auto 10%;
+        grid-template-rows: 7% auto 7%;
     }
     div.fastfood{
         grid-column: 1/2;
@@ -96,10 +96,13 @@ img {
     .top{
         grid-column: 1/4;
         grid-row: 1/2;
+        text-align: center;
     }
     
     .bottom{
         grid-column: 1/4;
-        grid-row: 3/4
+        grid-row: 3/4;
+        text-align: center;
+    }
     }
 }
