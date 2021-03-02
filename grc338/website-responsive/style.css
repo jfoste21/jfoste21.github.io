@@ -80,19 +80,26 @@ img {
         grid-template-columns: repeat (3, 1fr);
         grid-template-rows: 15% auto 10%;
     }
-    
     div.fastfood{
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    
     div.diningfood{
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    
     div.others{
         grid-column: 3/4;
         grid-row: 2/3;
+    }
+    
+    .top{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    
+    .bottom{
+        grid-column: 1/4;
+        grid-row: 3/4
     }
 }
