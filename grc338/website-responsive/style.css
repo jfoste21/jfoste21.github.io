@@ -31,6 +31,11 @@ nav ul li a{
 }
 
 h2{
+    font-size: 7em;
+    text-align: center;
+}
+
+h2{
     font-family: Youtube;
     color: #ef632f;
     font-size: 3em;
