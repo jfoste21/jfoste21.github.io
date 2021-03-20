@@ -57,9 +57,9 @@ h4{
 }
 
 ul li h4 a{
-    font-family: Youtube;
+    font-family: sans-serif;
     color: #ef632f;
-    font-size: 1em;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -107,27 +107,6 @@ img {
         grid-column: 1/4;
         grid-row: 3/4;
         text-align: center;
-    }
-    
-    div.about{
-        display: grid;
-        grid-template-columns: 40% 60%;
-        grid-template-rows: 1fr 1.5fr;    
-    }
-    
-    .founder{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    
-    div.information{
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    
-    div.faq{
-        grid-column: 1/3;
-        grid-row: 2/3;
     }
 
 }
