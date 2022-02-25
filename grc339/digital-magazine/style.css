@@ -5,7 +5,7 @@ body {
 }
 
 div.container {
-    max-width: 40em;
+    max-width: 60em;
     margin: auto;
 }
 
@@ -30,9 +30,28 @@ ul {
     font-style: normal;
     text-transform: uppercase;
 }
+
+nav ul {
+  padding: .5em 0;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
 nav ul li {
   display: inline;
   margin: 1em;
+font-size: 1.25em;
+}
+
+nav ul li a:hover {
+  color: rgb(211, 219, 224);
+}
+
+h2 {
+    font-family: good-times, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0.5em 0 0;
+    
 }
 
 h3 {
@@ -40,42 +59,34 @@ h3 {
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
+    margin: 0.5em 0 0;
+    font-size: 1.25em;
 }
 
-h2 {
-    font-family: good-times, sans-serif;
-    font-weight: 900;
-    font-style: normal;
+h3:hover  {
+    color: rgb(211, 219, 224);
 }
 
 p {
     font-family: bilo, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: auto;
+    margin-top: 0.25em;
+    font-size: 1.15em;
 }
 
 figcaption {
     font-family: bilo, sans-serif;
     font-weight: 300;
     font-style: italic;
-    color: rgb (211, 219, 14);
+    color: #000000;
     margin-bottom: 1em;
     font-size: 80%;
 }
 
-a:link {
+a {
     text-decoration: none;
-    color: black;
-}
-
-a:visited { 
-    text-decoration: none;
-    color: black;
-}
-
-a:hover  {
-    text-decoration: underline;
+    color: #000000;
 }
 
 footer {
@@ -83,3 +94,62 @@ footer {
   font-size: 0.8em;
   margin-top: 3em;
 }
+
+@media screen and (min-width: 60em){
+    
+    div.container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+        
+    }
+
+    header{
+        grid-column: 1/3;  
+    }
+    
+    main{
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 1em;
+    }
+    
+    section.mainstory{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.mainstory figure {
+        flex: 1 0 18em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.mainstory figure div {
+        flex: 1 0 18em;
+        background-image: url(upcycled-fish.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    section.mainstory figure img {
+        height: 100%;
+        opacity: 0;
+    }
+    
+    section.mainstory figure figcaption {
+        flex: 0 0 3em;
+    }
+    
+    aside{
+        grid-column: 2/3
+    }
+    
+    footer{
+        grid-column: 1/3;  
+    }
